@@ -18,7 +18,7 @@ export CLASSPATH_PREFIX=${CLASSPATH_PREFIX}:"$JARS"
 
 
 echo "2- Golo Libraries"
-#FIND FASTFORWARD GOLO LIBRARIES
+#FIND GOLO LIBRARIES
 LIBS=""
 FILES="$(find $1 -name '*.golo')"
 for gf in $FILES
